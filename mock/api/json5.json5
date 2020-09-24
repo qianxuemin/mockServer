@@ -1,0 +1,6 @@
+{
+  message: "直接返回json", // 支持写注释
+  'code': 2000,
+  'users|5':['@cname()'], // 支持mockjs规则
+  'images|1-3':['@image()']
+}
