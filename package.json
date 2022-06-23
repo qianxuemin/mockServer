@@ -19,11 +19,15 @@
   "engines": {
     "node": ">=6.0.0"
   },
-  "keywords": ["mock","json5","mockjs"],
+  "keywords": [
+    "mock",
+    "json5",
+    "mockjs"
+  ],
   "contributors": [
     {
-        "name": "qianxuemin",
-        "email": "710728787@qq.com"
+      "name": "qianxuemin",
+      "email": "710728787@qq.com"
     }
   ],
   "license": "ISC",
