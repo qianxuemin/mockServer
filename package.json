@@ -1,10 +1,13 @@
 {
   "name": "@qianxuemin/mocker",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "一个简单的mock server",
   "main": "index.js",
   "bin": {
     "mocker": "index.js"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,8 +19,13 @@
   "engines": {
     "node": ">=6.0.0"
   },
-  "keywords": [],
-  "author": "qianxuemin001@ke.com",
+  "keywords": ["mock","json5","mockjs"],
+  "contributors": [
+    {
+        "name": "qianxuemin",
+        "email": "710728787@qq.com"
+    }
+  ],
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.2",
